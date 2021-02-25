@@ -5,21 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Form</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-
+            <button class="header__btn btn btn--red">X</button>
+            <a href="#" class="header__link">Главная </a>
+            <a href="#" class="header__link">Контакты</a>
+            <a href="#" class="header__link">Форма обратной связи</a>
+            <h1 class="header__title">Форма обратной связи </h1>
         </div>
     </header>
-    <section>
+    <section class="connection">
         <div class="container">
+            <form class="connection__form" action="#">
+                <input class="connection__entrance" type="name" placeholder="Введите ваше имя">
+                <input class="connection__entrance" type="email" placeholder="Введите ваше Email">
+                <input class="connection__entrance" type="tel" placeholder="Введите Ваш телефон">
+                <input class="connection__entrance" type="text" placeholder="Введите Ваш телефон">
 
+            </form>
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <div class="container">
 
         </div>
