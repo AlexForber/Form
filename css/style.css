@@ -115,6 +115,7 @@ body{
     box-shadow: 0 0 36px 4px rgba(44, 22, 29, 0.3);
     background-color: #ffffff;
     border-radius: 0 0 30px 30px;
+    position: relative;
 }
 
 .footer .container{
@@ -122,4 +123,49 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+
+.footer__text{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #82a6bf;
+    margin-top: 10px;
+}
+
+.footer__entrance{
+    width: 320px;
+    height: 40px;
+    border: solid 2px #ebebeb;
+    background-color: #f8f8f8;
+    margin-right: 22px;
+}
+
+.footer__btn{
+    width: 208px;
+    height: 66px;
+    font-family: 'Roboto-Regular';
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: -15%;
+}
+
+.btn--green{
+    background-color: #23ceaa;
+}
+
+.footer__btn:hover{
+    background-color: #08a583;
 }
